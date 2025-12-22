@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# v1
+# v2
 # Generated on 2026-01-09 23:34:04.262864
 
 CACHE:
@@ -8,8 +8,6 @@ css/index.css
 js/index.js
 payloads/Jailbreak.js
 payloads/payloads.js
-payloads/Bins/GTA/ArabicGuy-1.0-1.27-rfoodxmodz.bin
-payloads/Bins/RDR2/OystersMenu-1.29-FREE.bin
 payloads/Bins/Dumper/ps4-dumper-vtx-900.bin
 payloads/Bins/Tools/app2usb.bin
 payloads/Bins/Tools/appcache-install.bin
@@ -23,6 +21,8 @@ payloads/Bins/Tools/ps4-psfree-fix.bin
 payloads/Bins/Tools/WebRTE_900.bin
 payloads/GoldHEN/GoldHEN.bin
 payloads/HEN/HEN.bin
+payloads/Bins/GTA/ArabicGuy-1.0-1.27-rfoodxmodz.bin
+payloads/Bins/RDR2/OystersMenu-1.29-FREE.bin
 psfree/alert.mjs
 psfree/config.mjs
 psfree/lapse.mjs
