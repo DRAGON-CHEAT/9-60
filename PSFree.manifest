@@ -10,15 +10,12 @@ payloads/Jailbreak.js
 payloads/payloads.js
 payloads/Bins/GTA/ArabicGuy-1.0-1.27-rfoodxmodz.bin
 payloads/Bins/RDR2/OystersMenu-1.29-FREE.bin
-payloads/Bins/Dumper/app-dumper.bin
 payloads/Bins/Dumper/ps4-dumper-vtx-900.bin
 payloads/Bins/Tools/app2usb.bin
 payloads/Bins/Tools/appcache-install.bin
 payloads/Bins/Tools/backup.bin
 payloads/Bins/Tools/disable-aslr.bin
 payloads/Bins/Tools/disable-updates.bin
-payloads/Bins/Tools/enable-browser.bin
-payloads/Bins/Tools/enable-updates.bin
 payloads/Bins/Tools/exit-idu.bin
 payloads/Bins/Tools/ftp.bin
 payloads/Bins/Tools/history-blocker.bin
