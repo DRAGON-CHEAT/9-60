@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# v2
+# v1
 # Generated on 2026-01-09 23:34:04.262864
 
 CACHE:
@@ -8,7 +8,6 @@ css/index.css
 js/index.js
 payloads/Jailbreak.js
 payloads/payloads.js
-payloads/Bins/Linux/fw960/payload-960-1gb-baikal.bin
 payloads/Bins/Tools/app2usb.bin
 payloads/Bins/Tools/appcache-install.bin
 payloads/Bins/Tools/backup.bin
@@ -21,6 +20,7 @@ payloads/Bins/Tools/ps4-psfree-fix.bin
 payloads/Bins/Tools/WebRTE_900.bin
 payloads/GoldHEN/GoldHEN.bin
 payloads/HEN/HEN.bin
+payloads/Bins/Linux/fw960/payload-960-1gb-baikal.bin
 psfree/alert.mjs
 psfree/config.mjs
 psfree/lapse.mjs
