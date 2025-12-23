@@ -8,7 +8,6 @@ css/index.css
 js/index.js
 payloads/Jailbreak.js
 payloads/payloads.js
-payloads/Bins/Linux/fw960/payload-960-1gb.bin
 payloads/Bins/Tools/app2usb.bin
 payloads/Bins/Tools/appcache-install.bin
 payloads/Bins/Tools/backup.bin
