@@ -8,7 +8,7 @@ css/index.css
 js/index.js
 payloads/Jailbreak.js
 payloads/payloads.js
-payloads/Bins/Dumper/ps4-dumper-vtx-900.bin
+payloads/Bins/Linux/fw960/payload-960-1gb-baikal.bin
 payloads/Bins/Tools/app2usb.bin
 payloads/Bins/Tools/appcache-install.bin
 payloads/Bins/Tools/backup.bin
@@ -21,8 +21,6 @@ payloads/Bins/Tools/ps4-psfree-fix.bin
 payloads/Bins/Tools/WebRTE_900.bin
 payloads/GoldHEN/GoldHEN.bin
 payloads/HEN/HEN.bin
-payloads/Bins/GTA/ArabicGuy-1.0-1.27-rfoodxmodz.bin
-payloads/Bins/RDR2/OystersMenu-1.29-FREE.bin
 psfree/alert.mjs
 psfree/config.mjs
 psfree/lapse.mjs
