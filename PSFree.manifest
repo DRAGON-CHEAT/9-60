@@ -8,6 +8,7 @@ css/index.css
 js/index.js
 payloads/Jailbreak.js
 payloads/payloads.js
+payloads/Bins/Dumper/app-dumper.bin
 payloads/Bins/Tools/app2usb.bin
 payloads/Bins/Tools/appcache-install.bin
 payloads/Bins/Tools/backup.bin
