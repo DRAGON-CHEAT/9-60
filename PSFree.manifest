@@ -8,14 +8,9 @@ css/index.css
 js/index.js
 payloads/Jailbreak.js
 payloads/payloads.js
-payloads/Bins/Dumper/app-dumper.bin
 payloads/Bins/Tools/app2usb.bin
 payloads/Bins/Tools/appcache-install.bin
-payloads/Bins/Tools/backup.bin
-payloads/Bins/Tools/disable-aslr.bin
 payloads/Bins/Tools/disable-updates.bin
-payloads/Bins/Tools/exit-idu.bin
-payloads/Bins/Tools/ftp.bin
 payloads/Bins/Tools/history-blocker.bin
 payloads/Bins/Tools/ps4-psfree-fix.bin
 payloads/Bins/Tools/WebRTE_900.bin
