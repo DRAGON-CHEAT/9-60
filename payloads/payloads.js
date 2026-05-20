@@ -154,9 +154,9 @@ export function load_RIFRenamer(){
 //     Loadpayloadlocal("./payloads/Bins/Tools/Orbis-Toolbox-900.bin");
 // }
 
-// export function load_WebrRTE(){
-//     Loadpayloadlocal("./payloads/Bins/Tools/WebRTE_900.bin");
-// }
+export function load_WebrRTE(){
+     Loadpayloadlocal("./payloads/Bins/Tools/WebRTE_900.bin");
+ }
 
 export function load_ToDex(){
     Loadpayloadlocal("./payloads/Bins/Tools/ToDex.bin");
