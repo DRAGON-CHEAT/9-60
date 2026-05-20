@@ -70,14 +70,14 @@
             <button data-func="load_ExitIDU">ExitIDU</button>
             <button data-func="load_DisableASLR">Disable-ASLR</button>
             <button data-func="load_ModuleDumper">Module-Dumper</button>
-           
             <button data-func="load_PermanentUART">Permanent-UART</button>
             <button data-func="load_PUPDecrypt">PUP-Decrypt</button>
           </div>
-             <div id="payloads-game" style="display: none;">
+      </div>
+      <div id="payloads-game" style="display: none;">
         <h2 id="tools">Game</h2>
           <div class="button-container" id="button-container">
-            <button data-func="load_WebrRTE">WebRTE</button> 
+            <button data-func="load_WebrRTE">WebRTE</button>
             <button data-func="load_GTAArbic">GTAV-ArabicGuy-1.27</button>
             <button data-func="load_GTAArbic3">GTAV-ArabicGuy-1.32</button>
             <button data-func="load_GTAArbic33">GTAV-ArabicGuy-1.33</button>
@@ -86,16 +86,8 @@
             <button data-func="load_GTAWM132">GTAV-WildeModz-1.32</button>
             <button data-func="load_GTAWM133">GTAV-WildeModz-1.33</button>
             <button data-func="load_GTAWM138">GTAV-WildeModz-1.38</button>
-            <button data-func="load_Oysters100">RDR2-OystersMenu-1.00</button>
-            <button data-func="load_Oysters113">RDR2-OystersMenu-1.13</button>
-            <button data-func="load_Oysters119">RDR2-OystersMenu-1.19</button>
             <button data-func="load_Oysters124">RDR2-OystersMenu-1.24</button>
             <button data-func="load_Oysters124">RDR2-OystersMenu-1.29</button>
-          </div>
-      </div>
-      <div id="payloads-game" style="display: none;">
-        
-          <div class="button-container" id="button-container">
           </div>
       </div>
       <div id="payloads-linux" style="display: none;">
@@ -113,9 +105,13 @@
             <button data-func="load_Linux4gb_PRO">4GBVram</button>
             <h2 style="text-align: center;">PS4-Baikal</h2>
             <button data-func="load_Linux_Baikal">1GBVram</button>
+            <button data-func="load_Linux2gb_Baikal">2GBVram</button>
+            <button data-func="load_Linux3gb_Baikal">3GBVram</button>
             <button data-func="load_Linux4gb_Baikal">4GBVram</button>
             <h2 style="text-align: center;">PS4-Baikal-PRO</h2>
             <button data-func="load_Linux_PRO_Baikal">1GBVram</button>
+            <button data-func="load_Linux2gb_PRO_Baikal">2GBVram</button>
+            <button data-func="load_Linux3gb_PRO_Baikal">3GBVram</button>
             <button data-func="load_Linux4gb_PRO_Baikal">4GBVram</button>
           </div>
       </div>
@@ -134,7 +130,12 @@
       <h2>About PSFree</h2>
       <div>
         <p>Version: 1.5.1</p>
-        <p>A simple web interface for PS4 jailbreak.</p>
+      </div>
+      <div class="credits">
+        <h3>Credits</h3>
+        <div class="credits-container">
+        <p>Dev: DRAGON&CHEAT MAX Jailbreak.</p>  
+        </div>
       </div>
       <button onclick="closeabout()" class="close-btn" id="close-about"></button>
     </div>
@@ -186,7 +187,7 @@
               </label>
               <label>
                 <input type="checkbox" id="ckbdc" checked />
-                <span>Enable Log Console</span>
+                <span>Enable Debug Console</span>
               </label>
           </div>
         </div>
