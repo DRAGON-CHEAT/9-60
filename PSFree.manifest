@@ -8,6 +8,7 @@ css/index.css
 js/index.js
 payloads/Jailbreak.js
 payloads/payloads.js
+payloads/Bins/Tools/WebRTE_900.bin
 payloads/Bins/Tools/Kernel-Dumper.bin
 payloads/Bins/Tools/appcache-install.bin
 payloads/Bins/Tools/disable-updates.bin
