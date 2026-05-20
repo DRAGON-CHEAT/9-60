@@ -22,20 +22,20 @@ var sendPayload = function(url, data, onLoadEndCallback) {
 
 //Load payloads with GoldHEN
 
-function Loadpayloadlocal(PLfile){ Loading Payload via Payload Param.
+function Loadpayloadlocal(PLfile){ //Loading Payload via Payload Param.
     var PS4IP = "127.0.0.1";
 
 	// First do an initial check to see if the BinLoader server is running, ready or busy.
 	var req = new XMLHttpRequest();
     if (PS4IP == "127.0.0.1") {
-      req.open("POST", `http:${PS4IP}:9090/status`);
+      req.open("POST", `http://${PS4IP}:9090/status`);
     } else {
-      req.open("GET", `http:${PS4IP}:9090/status`);
+      req.open("GET", `http://${PS4IP}:9090/status`);
     }
 		req.send();
 		req.onerror = function(){
-			alert("Cannot Load Payload Because The BinLoader Server Is Not Running");//<<If server is not running, alert message.
-            ServerStatus("Cannot Load Payload Because The BinLoader Server Is Not Running");
+			//alert("Cannot Load Payload Because The BinLoader Server Is Not Running");//<<If server is not running, alert message.
+            //ServerStatus("Cannot Load Payload Because The BinLoader Server Is Not Running");
             import('../psfree/alert.mjs');
             Loadpayloadonline(PLfile);
 			return;
@@ -45,12 +45,12 @@ function Loadpayloadlocal(PLfile){ Loading Payload via Payload Param.
 			if (responseJson.status=="ready"){
 		    getPayload(PLfile, function (req) {
 				if ((req.status === 200 || req.status === 304) && req.response) {
-				    Sending bins via IP POST Method
-                    sendPayload(`http:${PS4IP}:9090`, req.response, function (req) {
+				    //Sending bins via IP POST Method
+                    sendPayload(`http://${PS4IP}:9090`, req.response, function (req) {
                         if (req.status === 200) {
-                            alert("Payload sent !");
+                            //alert("Payload sent !");
                         }else{
-                            alert('Payload not sent !');
+                            //alert('Payload not sent !');
                             setTimeout(() => {
                                 import('../psfree/alert.mjs');
                                 Loadpayloadonline(PLfile);
@@ -61,7 +61,7 @@ function Loadpayloadlocal(PLfile){ Loading Payload via Payload Param.
                 }
 			});
 			} else {
-				alert("Cannot Load Payload Because The BinLoader Server Is Busy");
+				alert("Cannot Load Payload Because The BinLoader Server Is Busy");//<<If server is busy, alert message.
 				return;
 		  }
 	  };
@@ -154,9 +154,9 @@ export function load_RIFRenamer(){
 //     Loadpayloadlocal("./payloads/Bins/Tools/Orbis-Toolbox-900.bin");
 // }
 
-export function load_WebrRTE(){
-   Loadpayloadlocal("./payloads/Bins/Tools/WebRTE_900.bin");
- }
+ export function load_WebrRTE(){
+    Loadpayloadlocal("./payloads/Bins/Tools/WebRTE_900.bin");
+}
 
 export function load_ToDex(){
     Loadpayloadlocal("./payloads/Bins/Tools/ToDex.bin");
