@@ -113,6 +113,9 @@ export function load_App2USB(){
     Loadpayloadlocal("./payloads/Bins/Tools/app2usb.bin");
 }
 
+export function load_GTAWM134(){
+    Loadpayloadlocal("./payloads/Tools/GTA/WildeModz-1.34.bin");
+}
 
 export function load_BackupDB(){
     Loadpayloadlocal("./payloads/Bins/Tools/backup.bin");
